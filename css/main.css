@@ -1,0 +1,204 @@
+
+section{
+    height: 100vh;
+}
+
+.sessao1{
+    background-image: url(../images/section1-bg.svg);
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo1{
+    font-weight: bold;
+    text-align: center;
+    width: 30vw;
+    padding-top: 5vh;
+}
+.texto1{
+    padding-top: 5vh;
+    width: 55vw;
+    text-align: center;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.imagens{
+    display: flex;
+    align-items: center;
+}
+.imagens img{
+    height: 15vh;
+    transition: all .5s;
+}
+
+.imagens img:hover{
+    height: 20vh;
+}
+
+.botao-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+button a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.exp-faco{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experiencia-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+    width: 20vw;
+}
+.oque-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+    width: 20vw;
+}
+
+.sessao2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+
+.titulo-sessao{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.projetos{
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.coca-container{
+    display: flex;
+    color: #000;
+}
+.coca-container img{
+    height: 40vh;
+    transition: all .5s;
+}
+
+.coca-container img:hover{
+    height: 50vh;
+}
+
+
+.text-coca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40vw;
+    padding-left: 3vw;
+}
+
+.text-personagem p{
+    width: 70%;
+    padding-top: 5%;
+}
+
+.text-personagem h1{
+    font-size: 7rem;
+}
+
+.personagem-container{
+    display: flex;
+    color: #000;
+    padding-top: 5vh;
+}
+.personagem-container img{
+    height: 40vh;
+    transition: all .5s;
+}
+
+.personagem-container img:hover{
+    height: 50vh;
+}
+
+.text-personagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40vw;
+    padding-left: 3vw;
+}
+
+.text-cem p{
+    width: 70%;
+    padding-top: 5%;
+}
+
+.text-cem h1{
+    font-size: 7rem;
+}
+
+.text-cem p{
+    width: 70%;
+    padding-top: 5%;
+}
+
+.text-cem h1{
+    font-size: 7rem;
+}
+
+.cem-container{
+    display: flex;
+    color: #000;
+    padding-top: 5vh;
+}
+.cem-container img{
+    height: 40vh;
+    transition: all .5s;
+}
+
+.cem-container img:hover{
+    height: 50vh;
+}
+
+.text-cem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40vw;
+    padding-left: 3vw;
+}
+
+.text-cem p{
+    width: 70%;
+    padding-top: 5%;
+}
+
+.text-cem h1{
+    font-size: 7rem;
+}
