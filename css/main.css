@@ -1,10 +1,9 @@
 
-section{
-    height: 100vh;
-}
 
 .sessao1{
     background-image: url(../images/section1-bg.svg);
+    height: 100vh;
+    padding: 3% 0;
 }
 
 .text-container{
@@ -52,7 +51,7 @@ section{
 
 button a{
     text-decoration: none;
-    color: cadetblue;
+    color: #fff9;
 }
 .exp-faco{
     display: flex;
@@ -89,27 +88,27 @@ button a{
     padding: 5vh;
 }
 
-.projetos{
+.projetos-titulo{
     color: #000;
     font-weight: bold;
     display: flex;
     align-items: center;
 }
-.coca-container{
+.strange-container{
     display: flex;
     color: #000;
 }
-.coca-container img{
+.strange-container img{
     height: 40vh;
     transition: all .5s;
 }
 
-.coca-container img:hover{
+.strange-container img:hover{
     height: 50vh;
 }
 
 
-.text-coca{
+.text-strange{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,12 +119,8 @@ button a{
 }
 
 .text-personagem p{
-    width: 70%;
+    width: 65%;
     padding-top: 5%;
-}
-
-.text-personagem h1{
-    font-size: 7rem;
 }
 
 .personagem-container{
@@ -155,10 +150,6 @@ button a{
 .text-cem p{
     width: 70%;
     padding-top: 5%;
-}
-
-.text-cem h1{
-    font-size: 7rem;
 }
 
 .text-cem p{
@@ -197,8 +188,34 @@ button a{
 .text-cem p{
     width: 70%;
     padding-top: 5%;
+    padding-bottom: 15%;
 }
 
-.text-cem h1{
-    font-size: 7rem;
+.sessao3{
+    background-image: url(../images/section1-bg.svg);
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+}
+
+.contatos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    gap: 3%;
+}
+
+button{
+    color: #fff9;
 }

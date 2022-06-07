@@ -1,3 +1,10 @@
 footer{
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0 2% 0;
+}
+.copy{
+    color: #000;
 }
