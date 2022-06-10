@@ -40,3 +40,14 @@ header a{
 header a:hover{
     color: #555;
 }
+
+@media (max-width: 768px){
+    header{
+        width: 100vw;
+        align-items: center;
+        position: fixed;
+    }
+    .links-container{
+        display: none;
+    }
+}
