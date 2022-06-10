@@ -37,16 +37,6 @@ header a{
     width: 100%;
 }
 
-.menu-container{
-    height: 75%;
-}
-
-.menu{
-    height: 100%;
-    width: 75px;
-    transform: rotate(180deg);
-}
-
 header a:hover{
     color: #555;
 }
